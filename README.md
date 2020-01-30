@@ -12,4 +12,4 @@ This clustering method log-normalizes trait distributions, then adjusts by age a
 
 
 # PCOS_subtype_classifer.R
-This script builds and compares subtype classifiers modeled from adjusted quantitative trait data and clusters produced by PCOS_phenotype_clustering.R. The script compares the following methods: support vector machine, random forest, Ggussian mixed-model, and quadratic discriminant analysis. Each classifier is compared using 10-fold cross-validation. The classifier with the lowest error rate was then applied to a family-based PCOS cohort to identify and compare subtype membership.
+This script builds and compares subtype classifiers modeled from adjusted quantitative trait data and clusters produced by PCOS_phenotype_clustering.R. The script compares the following methods using 10-fold cross-validation: support vector machine, random forest, gaussian mixed-model, and quadratic discriminant analysis. The classifier with the lowest error rate was then applied to a family-based PCOS cohort to identify and compare subtype membership.
