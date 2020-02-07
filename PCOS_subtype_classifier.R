@@ -3,7 +3,7 @@
 ################################################
 
 # This script is designed to read in a tab-delimited text file with 
-#  normalized trait values for the following traits by default:
+#  normalized trait values (Z-scores) for the following traits by default:
 #  BMI, Testosterone, SHBG, Insulin, Glucose, DHEAS, LH, and FSH
 #
 # The input trait files should feature the sample_IDs as the first column, the classifications in the 2nd column, 
