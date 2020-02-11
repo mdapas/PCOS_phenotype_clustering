@@ -38,9 +38,6 @@ train_input_file <- '~/train_input_file.txt' # File path to input table with tra
 test_input_file <- '~/test_input_file.txt' # File path to input table
 output_file <- '~/output_file.txt'
 
-#train_input_file <- '/Users/mdapas/Documents/Research/Hayes/subtyping/genotyped_cohort.tsv'
-#test_input_file <- '/Users/mdapas/Documents/Research/Hayes/subtyping/fam_cohort_76_Z.tsv'
-
 model_cols <- c(2:10)
 class_col <- 'cluster_id'
 input_classes <- data.frame(clusters=c(1,2,3), subtype=c('Metabolic','Reproductive','Intermediate'), 
