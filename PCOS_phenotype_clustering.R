@@ -200,6 +200,7 @@ cluster_matrix <- as.matrix(na.omit(m.df[, var_labels]))
 
 ## Perform hierarchical clustering 
 hc <- hclust(dist((cluster_matrix), method=dist_metric), method=clust_method)
+row_hc <- hclust(dist(t(df.12), method='manhattan'), method='ward.D')
 
 ## Define clusters
 mycl <- cutree(hc, k=3)
@@ -216,8 +217,8 @@ colors = c(seq(-4.401,-1.201,length=40),seq(-1.2,1.2,length=30),seq(1.201,4.401,
 my_palette <- colorRampPalette(c("blue", "white", "red"))(n = 109)
 
 ## Draw the heat map
-heatmap.2(t(cluster_matrix), main=paste("[TITLE]\nn=",dim(cluster_matrix)[1],sep=''),
-          Rowv=TRUE, Colv=as.dendrogram(hc), dendrogram="both", trace="none",col=my_palette,
+heatmap.2(t(cluster_matrix), main=paste("[TITLE]\nn=",dim(cluster_matrix)[1],sep=''), revC=T,
+          Rowv=as.dendrogram(row_hc), Colv=as.dendrogram(hc), dendrogram="both", trace="none",col=my_palette,
           ColSideColors=myClusterSideBar, key=TRUE, key.title='', key.xlab='', margins=c(2,6), 
           labCol='',symm=F,symkey=F,symbreaks=F,breaks=colors)
 
