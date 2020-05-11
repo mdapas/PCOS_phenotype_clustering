@@ -8,7 +8,7 @@ This script is designed to read in a tab-delimited text file with trait values a
 
 The default traits, column names, and other variables are defined in the "Variables" section of this script. These variables can be modified as desired. 
 
-This clustering method log-normalizes trait distributions, then adjusts by age and assay, then applies an inverse normal transformation, in which the trait distributions are fit onto a normal distribution. Therefore, outlier influence is mitigated and clusters are primarily driven by multicollinearity of input variables.
+This clustering method log-normalizes trait distributions, then adjusts by age and assay, then applies an inverse normal transformation, in which the trait residuals are fit onto a normal distribution. Therefore, outlier influence is mitigated and clusters are primarily driven by multicollinearity of input variables.
 
 
 # PCOS_subtype_classifer.R
