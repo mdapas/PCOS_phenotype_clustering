@@ -1,6 +1,4 @@
-This repository contains the R scripts used in Dapas et al. (2019). Phenotypic clustering reveals distinct subtypes of polycystic ovary syndrome with novel genetic associations. (bioRxiv 814210; doi: https://doi.org/10.1101/814210)
-
-The aforementioend manuscript detailing these methods and applications is currently under peer-review.
+This repository contains the R scripts used in Dapas M, Lin FTJ, Nadkarni GN, Sisk R, Legro RS, Urbanek M, et al. (2020) Distinct subtypes of polycystic ovary syndrome with novel genetic associations: An unsupervised, phenotypic clustering analysis. PLoS Med 17(6): e1003132. https://doi.org/10.1371/journal.pmed.1003132
 
 
 # PCOS_phenotype_clustering.R
