@@ -13,7 +13,7 @@
 # This script evaluates four different models:
 #  support vector machine, random forest, gaussian mixture model, and quadratic discriminant analysis
 #
-# The manuscript detailing these methods and applications is currently under review.
+# The manuscript detailing these methods and applications has been published in PLOS Medicine: https://doi.org/10.1371/journal.pmed.1003132.
 # Direct questions to Matthew Dapas at mdapas@uchicago.edu
 
 
