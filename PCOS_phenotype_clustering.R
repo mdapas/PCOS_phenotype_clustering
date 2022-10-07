@@ -14,7 +14,7 @@
 # then applies an inverse normal transformation (INT), in which the trait distributions are fit onto a 
 # normal distribution. Clusters are therefore primarily driven by multicollinearity of input variables.
 #
-# The manuscript detailing these methods and applications is currently under review.
+# The manuscript detailing these methods and applications has been published in PLOS Medicine: https://doi.org/10.1371/journal.pmed.1003132.
 # Direct questions to Matthew Dapas at mdapas@uchicago.edu
 
 ################################################
